@@ -1,19 +1,15 @@
-# PhoenixTypescript
+# Phoenix React Typescript
 
-To start your Phoenix server:
+Minimal setup of TypeScript React on a fresh Phoenix app (v1.6)
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## How-To
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+- Phoenix comes bundled with Esbuild, as you can see in your configuration file and the presence of the 
+Elixir package in your mix file, in fact most of the work is already done for you.
+- Install needed libraries in the assets folder.
+- Import your React code in the main `app.js` and you are good to go.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Diff
 
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+See [53d46c6](https://github.com/srozen/phoenix_react_typescript/commit/53d46c69d6b12c239376f5c55067223558e8fb99) for 
+the commit diff and what was changed to setup this.
